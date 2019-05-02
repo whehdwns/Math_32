@@ -1,0 +1,6 @@
+#v = c(1,2,3)
+#cumsum(v)
+#sum(v)
+win = sample(c(-1,1), size = 50, replace=TRUE)
+cum.win = cumsum(win)
+max(cum.win)
